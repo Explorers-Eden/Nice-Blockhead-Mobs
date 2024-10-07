@@ -1,0 +1,3 @@
+function blockhead_mobs:redstone_ghost/animations
+
+schedule function blockhead_mobs:schedules/animations 3t
