@@ -12,13 +12,13 @@
           ],
           "entity": {
             "type": "minecraft:pillager",
-            "nbt": "{Tags:[\"nmr_penguin\"]}"
+            "nbt": "{Tags:[\"eden.penguin\"]}"
           }
         }
       }
     },
     "rewards": {
-      "function": "nmr:penguin/on_hurt"
+      "function": "blockhead_mobs:penguin/on_hurt"
     }
   }
   

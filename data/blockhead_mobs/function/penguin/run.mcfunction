@@ -1,1 +1,1 @@
-execute as @e[type=marker,tag=nmr_penguin_spawner] at @s run function nmr:penguin/spawner_penguin
+execute as @e[type=marker,tag=eden.penguin.spawner] at @s run function blockhead_mobs:penguin/spawner

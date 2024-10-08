@@ -12,13 +12,13 @@
           ],
           "entity": {
             "type": "minecraft:interaction",
-            "nbt": "{Tags:[\"nmr_penguin_interaction\"]}"
+            "nbt": "{Tags:[\"eden.penguin.interaction\"]}"
           }
         }
       }
     },
     "rewards": {
-      "function": "nmr:penguin/on_hurt"
+      "function": "blockhead_mobs:penguin/on_hurt"
     }
   }
   

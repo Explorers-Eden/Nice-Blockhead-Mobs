@@ -1,5 +1,10 @@
 ##default technical scoreboard
 scoreboard objectives add eden.technical dummy
 
+##additional scoreboards
+scoreboard objectives add eden.penguin.breathing dummy
+
 ##init schedules
-function blockhead_mobs:schedules/init
+schedule function blockhead_mobs:schedules/animations 3t
+schedule function blockhead_mobs:schedules/spawning 3s
+schedule function blockhead_mobs:schedules/attacks 3s
