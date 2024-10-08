@@ -1,1 +1,1 @@
-execute as @e[type=marker,tag=nmr_amemasu_spawner_1,limit=1] at @s unless entity @e[type=witch,distance=..36] run function nmr:amemasu/spawn_witch
+execute as @e[type=marker,tag=eden.amemasu.spawner,limit=1] at @s unless entity @e[type=witch,distance=..36] run function blockhead_mobs:amemasu/spawn_witch

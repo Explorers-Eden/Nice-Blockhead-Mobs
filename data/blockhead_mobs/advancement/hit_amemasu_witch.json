@@ -12,13 +12,13 @@
           ],
           "entity": {
             "type": "minecraft:witch",
-            "nbt": "{Tags:[\"nmr_amemasu_witch\"]}"
+            "nbt": "{Tags:[\"eden.amemasu.witch\"]}"
           }
         }
       }
     },
     "rewards": {
-      "function": "nmr:amemasu/spawn"
+      "function": "blockhead_mobs:amemasu/spawn"
     }
   }
   

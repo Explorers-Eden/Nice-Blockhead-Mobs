@@ -13,14 +13,14 @@
           "damage": {
             "source_entity": {
               "type": "minecraft:zombie",
-              "nbt": "{Tags:[\"nmr_redstone_ghost\"]}"
+              "nbt": "{Tags:[\"eden.redstone_ghost\"]}"
             }
           }
         }
       }
     },
     "rewards": {
-      "function": "nmr:redstone_ghost/hit_by_redstone_ghost"
+      "function": "blockhead_mobs:redstone_ghost/hit_by_redstone_ghost"
     }
   }
   

@@ -1,3 +1,4 @@
 function blockhead_mobs:redstone_ghost/animations
+function blockhead_mobs:amemasu/animations
 
 schedule function blockhead_mobs:schedules/animations 3t
