@@ -23,10 +23,10 @@
             "input_predicate": {
               "predicate_type": "minecraft:random_block_match",
               "block": "minecraft:cobblestone",
-              "probability": 0.3
+              "probability": 0.2
             },
             "output_state": {
-              "Name": "minecraft:redstone_ore",
+              "Name": "minecraft:moss_block",
               "Properties": {
                 "lit": "false"
               }

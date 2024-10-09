@@ -1,8 +1,8 @@
 execute as @e[type=item_display,tag=eden.penguin.head,predicate=!blockhead_mobs:entity/has_pillager_vehicle] run kill @s
 execute as @e[type=interaction,tag=eden.penguin.interaction,predicate=!blockhead_mobs:entity/has_item_display_vehicle] run kill @s
 
-execute as @e[type=pillager,tag=eden.penguin] at @s store result entity @e[type=item_display,tag=eden.penguin.head,limit=1,sort=nearest] Rotation[0] float 0.0001 run data get entity @s Rotation[0] 10000
-execute as @e[type=pillager,tag=eden.penguin] at @s store result entity @e[type=interaction,tag=eden.penguin.interaction,limit=1,sort=nearest] Rotation[0] float 0.0001 run data get entity @s Rotation[0] 10000
+execute as @e[type=pillager,tag=eden.penguin] at @s store result entity @n[type=item_display,tag=eden.penguin.head] Rotation[0] float 0.0001 run data get entity @s Rotation[0] 10000
+execute as @e[type=pillager,tag=eden.penguin] at @s store result entity @n[type=interaction,tag=eden.penguin.interaction] Rotation[0] float 0.0001 run data get entity @s Rotation[0] 10000
 
 function blockhead_mobs:penguin/breathing
 

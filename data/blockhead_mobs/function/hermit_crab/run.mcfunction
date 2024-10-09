@@ -1,1 +1,0 @@
-execute as @e[type=marker,tag=nmr_hermit_crab_spawner] at @s run function nmr:hermit_crab/spawner_hermit_crabs

@@ -25,7 +25,7 @@
             "element": {
                 "projection": "rigid",
                 "element_type": "minecraft:single_pool_element",
-                "location": "blockhead_mobs:spawner/rats",
+                "location": "blockhead_mobs:spawner/rat",
                 "processors": "minecraft:empty"
             }
         }
