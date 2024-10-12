@@ -8,4 +8,4 @@ execute unless entity @s[distance=..32] run kill @e[tag=eden.fish_bullet]
 execute unless block ~ ~ ~ air run return fail
 execute unless entity @s[distance=..32] run return fail
 
-execute positioned ^ ^ ^.05 run function blockhead_mobs:amemasu/shoot with storage blockhead_mobs:amemasu
+execute positioned ^ ^ ^.05 run function blockhead_mobs:amemasu/shoot with storage eden:amemasu
