@@ -6,3 +6,5 @@ $execute store result bossbar eden:player_boss_$(uuid_0)$(uuid_1)$(uuid_2)$(uuid
 $execute store result bossbar eden:player_boss_$(uuid_0)$(uuid_1)$(uuid_2)$(uuid_3) value run data get entity @n[type=vex,tag=eden.amemasu] Health
 $bossbar set eden:player_boss_$(uuid_0)$(uuid_1)$(uuid_2)$(uuid_3) players @s
 $bossbar set eden:player_boss_$(uuid_0)$(uuid_1)$(uuid_2)$(uuid_3) visible true
+
+data remove storage eden:temp bossbar
